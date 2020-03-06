@@ -8,8 +8,8 @@ import { Component } from '@angular/core';
 // Now we have to store the value captured from the input. We can create an empty array in app.component.ts inside the AppComponent class:
 export class AppComponent { todoArray=[] 
   addTodo(value: any){    
-    this.todoArray.push(value) 
-       console.log(this.todos) 
+    this.todoArray.push(value);
+       console.log(this.todos);
        }
        deleteItem(todo: any){  
           for(let i=0 ;i<= this.todoArray.length ;i++)
